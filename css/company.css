@@ -9,7 +9,7 @@
 }
 .offering{
     color: #0078ff;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 125%;
     letter-spacing: 0.04em;
     font-weight: 800;
@@ -233,8 +233,7 @@
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    flex-direction: row; 
-    justify-content: space-between;  
+    flex-direction: row;  
 
 } 
 .company-box, .company-list-box {
