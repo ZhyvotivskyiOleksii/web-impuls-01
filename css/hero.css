@@ -1,0 +1,211 @@
+.hero{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.hero-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-title{
+    text-align: center;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    color: #2e363e;
+    font-weight: 800;
+    font-family: "FuturaPT3",sans-serif;
+}
+
+.hero-subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    color: #434b53;
+
+}
+.hero-btn {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e8ff8; 
+    color: white;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    letter-spacing: -0.03em;
+    color: #fff;
+    border: none; 
+    border-radius: 10px; 
+    font-size: 21px; 
+    cursor: pointer;
+    min-width: 200px;
+    height: 60px;
+}
+.hero-btn:hover{
+    background-color: #0570d4;
+}
+.span-hero{
+    text-align: center;
+}
+.offering{
+    color: #1e8ff8;
+    font-size: 16px;
+    line-height: 143%;
+    letter-spacing: -0.03em;
+
+}
+.hero-time{
+    font-weight: 800;
+    color: #1e8ff8;
+    font-family: 'FuturaPT3', sans-serif;
+}
+
+
+.busines{
+    color: #1e8ff8;
+    font-family: "FuturaPT2",sans-serif;
+    font-weight: 800;
+    font-family: "FuturaPT3",sans-serif;
+}
+.hero-btn-icon{
+    margin-left: 16px;
+    fill: #fff;
+}
+
+
+@media (min-width: 768px){
+    .hero-container {
+        align-items: center;
+        justify-content: center;
+        max-width: 768px;
+        display: flex;
+    }
+    .hero-box{
+        align-items: flex-start;
+    }
+    .hero-btn-box{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    .hero-text-wrap{
+        display: flex;
+        gap: 10px;
+    }
+    .span-hero{
+        text-align: left;
+    }
+.img-top{
+    width: 400px;
+}
+.busines{
+    color: #1e8ff8;
+    line-height: 130%;
+        letter-spacing: 0.06em;
+    font-weight: 800;
+    font-family: "FuturaPT3",sans-serif;
+}
+    .hero-title {
+        font-family: "Reem Kufi", sans-serif;
+        font-weight: 700;
+        font-size: 38px;
+        letter-spacing: 0.03em;
+        color: #2e363e;
+        margin-bottom: 25px;
+        font-weight: 800;
+        font-family: "FuturaPT3",sans-serif;
+        width: 400px;
+        text-align: left;
+    } 
+    .hero-subtitle {
+        margin-bottom: 25px;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 160%;
+        letter-spacing: -0.01em;
+        color: #434b53;
+        width: 434px;
+        text-align: left;
+    }
+    .hero-btn {
+        margin-bottom: unset;
+        border-radius: 5px;
+        min-width: 200px;
+        height: 60px;
+        background-color: #1e8ff8; 
+        color: white;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 143%;
+        letter-spacing: -0.01em;
+        color: #fff;
+        border: none; 
+        border-radius: 10px; 
+        font-size: 21px; 
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .hero-btn:hover{
+        background-color: #0570d4;
+    }
+}
+
+
+
+
+
+    @media (min-width: 1200px) {
+        .logo-modal{
+            width: 285px;
+        }
+        .hero-cont-tu {
+            flex: 0 0 500px; 
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+        }
+
+        .hero-container{
+            max-width: 1440px;
+            display: flex;
+            align-items: center; 
+            justify-content: space-between;
+        }
+        .hero-title {
+            font-family: "Reem Kufi", sans-serif;
+            margin-top: 140px;
+            font-size: 80px;
+            letter-spacing: 0.06em;
+            color: #2e363e;
+            margin-bottom: 25px;
+            width: 580px;
+            font-weight: 800;
+            font-family: "FuturaPT3",sans-serif;
+        } 
+        .hero-subtitle {
+            margin-bottom: 25px;
+            font-weight: 400;
+            font-size: 21px;
+            line-height: 160%;
+            letter-spacing: -0.01em;
+            color: #434b53;
+            width: 434px;
+        }
+        .busines{
+            color: #1e8ff8;
+            font-family: "FuturaPT2",sans-serif;
+            font-weight: 800;
+            font-family: "FuturaPT3",sans-serif;
+        }
+    }
