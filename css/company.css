@@ -1,5 +1,6 @@
 .company{
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
@@ -112,9 +113,7 @@
 
 
 @media (min-width: 768px){
-    .container{
-        padding: 0 15px;
-    }
+
     .company-container{
         max-width: 768px;
         
@@ -238,11 +237,6 @@
 } 
 
 
-.company-box{
-    width: 40%;
-    
-} 
-
 .company-list-box{
     flex-direction: column;
 }
@@ -255,8 +249,17 @@
     letter-spacing: 0.03em;
     font-weight: 800;
     font-family: "FuturaPT2",sans-serif;
-    
-
+}
+.company-span-site{
+    color: #000000;
+    font-size: 22px;
+    line-height: 125%;
+    letter-spacing: 0.04em;
+    font-weight: 800;
+    font-family: "FuturaPT2",sans-serif;
+}
+.company-span-site::before{
+    flex-shrink: 0;
 }
 .company-title{
     font-size: 35px;
