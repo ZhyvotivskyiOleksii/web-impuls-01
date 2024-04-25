@@ -172,7 +172,7 @@
     .company-text{
         line-height: 125%;
         letter-spacing: 0.03em;
-        font-size: 20px;
+        font-size: 21px;
     
     }
     
@@ -231,11 +231,15 @@
     max-width: 1200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     justify-content: center;
+    justify-content: space-between;
+    flex-direction: row; 
+    justify-content: space-between;  
 
 } 
-
+.company-box, .company-list-box {
+    width: 48%; 
+  }
 
 .company-list-box{
     flex-direction: column;

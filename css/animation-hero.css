@@ -16,7 +16,7 @@ h1 {
   transform: translate3d(0,0,0);
   opacity: 0;
   -webkit-animation: anim 3.2s ease-out forwards 1s;
-  animation: anim 1.2s ease-out forwards 1s;
+  animation: anim 2.6s ease-out forwards 1s;
 }
 
 @-webkit-keyframes anim {
