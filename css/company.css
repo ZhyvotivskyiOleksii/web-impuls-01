@@ -229,6 +229,7 @@
     }
 
     .company-list-box{
+        margin-top: 20px;
         flex-direction: column;
     }
 }

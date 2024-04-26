@@ -87,6 +87,7 @@
 @media (min-width: 768px){
     .construction-box{
         max-width: 768px;
+        background-color: antiquewhite;
     }
     .const-title{
         display: flex;
@@ -120,9 +121,7 @@
         font-weight: 800;
         font-family: "FuturaPT1",sans-serif;
     }
-    .step-content {
-
-    }
+   
 
     .step-content-list{
         display: flex;
