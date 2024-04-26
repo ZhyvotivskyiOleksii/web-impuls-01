@@ -38,6 +38,12 @@
     display: block;
 
 }
+.company-span-site{
+    font-size: 16px;
+    font-family: "FuturaPT2",sans-serif;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+}
 
 .company-title{
     margin-bottom: 25px;
@@ -103,6 +109,9 @@
     letter-spacing: 0.03em;
     gap: 12px;
 }
+.company-list:hover{
+    color: #0078ff;
+}
 @media (max-width: 767px){
     .company-list:not(:last-child){
         margin-bottom: 20px;
@@ -120,7 +129,7 @@
     }
     .offering{
         color: #0078ff;
-        font-size: 26px;
+        font-size: 16px;
         line-height: 125%;
         letter-spacing: 0.04em;
         font-weight: 800;
@@ -227,22 +236,16 @@
 
 
 @media (min-width: 1200px){
-.company-container{
-    max-width: 1200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    flex-direction: row;  
+    .company-container{
+        max-width: 1440px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        gap: 100px;
+    }
+    
 
-} 
-.company-box, .company-list-box {
-    width: 48%; 
-  }
-
-.company-list-box{
-    flex-direction: column;
-}
 
 
 .offering{
@@ -265,7 +268,7 @@
     flex-shrink: 0;
 }
 .company-title{
-    font-size: 35px;
+    font-size: 40px;
     padding-bottom: 23px;
     line-height: 125%;
     letter-spacing: 0.03em;
@@ -292,6 +295,6 @@
     background-color: #1e8ff8;
     display: block;
 
-}
+} 
 
 }

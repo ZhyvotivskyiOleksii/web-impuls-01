@@ -1,7 +1,14 @@
 .logo-menu-mob{
   width: 200px;
 }
-
+.header{
+  position: fixed;
+  top: 0;   
+    left: 0;         
+    width: 100%;
+    background-color: #fff;   
+    z-index: 1000; 
+}
 @media (orientation: landscape) and (max-width: 767px) {
   .navbar-m {
     display: none; 
