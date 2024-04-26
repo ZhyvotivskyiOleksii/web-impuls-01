@@ -87,6 +87,7 @@
 @media (min-width: 768px){
     .construction-box{
         max-width: 768px;
+        padding: 0 25px;
         background-color: antiquewhite;
     }
     .const-title{
@@ -122,12 +123,19 @@
         font-family: "FuturaPT1",sans-serif;
     }
    
-
+.step-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
     .step-content-list{
-        display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 24px;
+        text-align: center;
+        justify-content: center;
+        gap: 12px;
         width: calc((100% - 72px) / 4);
     }
+
 }
