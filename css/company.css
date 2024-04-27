@@ -6,7 +6,10 @@
 
 .company-box{
     text-align: center;
+
 }
+
+
 .offering{
     color: #0078ff;
     font-size: 16px;
@@ -52,6 +55,7 @@
     letter-spacing: 0.03em;
     font-weight: 800;
     font-family: "FuturaPT2",sans-serif;
+    color: #000000;
 }
 
 .company-span{
@@ -238,6 +242,12 @@
 
 
 @media (min-width: 1200px){
+    .company{
+        background-image: url('/images/panel.png');
+        background-repeat: no-repeat;
+        background-size: 100% ;
+        background-position: center;
+    }
     .company-container{
         max-width: 1440px;
         display: flex;
@@ -245,6 +255,7 @@
         justify-content: center;
         justify-content: space-between;
         gap: 100px;
+        
     }
     
 
@@ -300,3 +311,15 @@
 } 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+  

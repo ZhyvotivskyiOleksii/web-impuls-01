@@ -88,7 +88,6 @@
     .construction-box{
         max-width: 768px;
         padding: 0 25px;
-        background-color: antiquewhite;
     }
     .const-title{
         display: flex;
@@ -122,6 +121,15 @@
         font-weight: 800;
         font-family: "FuturaPT1",sans-serif;
     }
+    .step-content-list h3{
+        font-size: 20px;
+    }
+    .step-content-list p{
+        font-size: 18px;
+    }
+    .construction-box{
+        margin-top: 50px;
+    }
    
 .step-content{
     display: flex;
@@ -135,7 +143,73 @@
         text-align: center;
         justify-content: center;
         gap: 12px;
-        width: calc((100% - 72px) / 4);
+        width: calc((100% - 72px) / 3);
     }
 
+}
+
+@media (min-width:1200px){
+    .construction-box{
+        max-width: 1440px;
+    }
+    .const-title{
+        display: flex;
+        align-items: center;
+        gap:  12px;
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+        margin-bottom: 20px;
+        line-height: 125%;
+        letter-spacing: 0.03em;
+        font-weight: 800;
+        font-family: "FuturaPT2",sans-serif;
+        justify-content: center;
+    }
+    
+    .const-title::before{
+        content: '';
+        width: 100px;
+        height: 1px;
+        background-color: #1e8ff8;
+        display: block;
+    }
+    .const-offering{
+        color: #0078ff;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: 0.04em;
+        font-weight: 800;
+        font-family: "FuturaPT2",sans-serif;
+        text-align: center;
+    }
+
+    .const-subtitle{
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-bottom: 25px;
+        font-size: 21px;
+        line-height: 125%;
+        letter-spacing: 0.03em;
+        font-weight: 800;
+        font-family: "FuturaPT1",sans-serif;
+    }
+    .step-content-list{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        gap: 12px;
+        width: calc((100% - 72px) / 4);
+    }
+    .step-content-list h3{
+        font-size: 22px;
+    }
+    .step-content-list p{
+        font-size: 20px;
+    }
+    .construction-box{
+        margin-top: 50px;
+    }
+
+ 
 }
