@@ -1,5 +1,6 @@
 .card-title{
     max-width: 380px;
+    margin-top: 40px;
 }
 .cards-container {
     display: flex;
@@ -141,7 +142,7 @@
 
 .card-price{
     font-family: 'FuturaPT2', sans-serif;
-    color: rgb(255, 255, 255);
+    color: #1e8ff8;
 }
 
 .card-curency{

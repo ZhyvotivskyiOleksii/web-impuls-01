@@ -1,6 +1,9 @@
 .hero{
     padding-top: 120px;
     padding-bottom: 40px;
+    background-image: url(../images/Group738.png);
+    background-size: cover;
+
 }
 
 .hero-box{
@@ -83,7 +86,11 @@
     margin-left: 16px;
     fill: #fff;
 }
-
+.img-top{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
 
 @media (min-width: 768px){
     

@@ -1,0 +1,82 @@
+.footer-container{
+    background-color: black;
+    margin-top: 40px;
+}
+.logo-footer{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.logo-brand{
+    font-size: 30px;
+    color: #1e8ff8;
+    font-family: "FuturaPT3",sans-serif;
+    letter-spacing: 0.02;
+    line-height: 125%;
+
+}
+.logo-footer{
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 0.02;
+    line-height: 125%;
+    font-family: "FuturaPT3",sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.footer-list li {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer-list li a {
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
+    color: #e0ddddfc;
+}
+
+.footer-icon {
+    margin-right: 12px;
+}
+
+.regulamin{
+    display: flex;
+    gap: 8px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #e0ddddfc;
+    font-size: 12px;
+}
+
+.payment-footer{
+    text-align: center;
+}
+
+.card-pey{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding-top: 30px;
+}
+.call-to-action{
+    display: flex;
+}
+.call-text{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.arrow-icon{
+    width: 20px;
+}
