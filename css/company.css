@@ -1,10 +1,12 @@
 .company{
-    margin-top: 80px;
-    padding-bottom: 40px;
+    margin-top: 120px;
     background-color: #F4F8FF;
     
 }
-
+.company-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 .company-box{
     text-align: center;
@@ -16,7 +18,7 @@
     color: #0078ff;
     font-size: 16px;
     line-height: 125%;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.03em;
     font-weight: 800;
     font-family: "FuturaPT2",sans-serif;
     text-align: center;
@@ -43,6 +45,7 @@
     display: block;
 
 }
+
 .company-span-site{
     font-size: 16px;
     font-family: "FuturaPT2",sans-serif;
@@ -131,7 +134,7 @@
 @media (min-width: 768px){
 
     .company-container{
-        max-width: 768px;
+        /* max-width: 768px; */
         
     }
     .offering{
@@ -244,11 +247,16 @@
 
 
 @media (min-width: 1200px){
+    .company-container{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
     .company{
         background-image: url('/images/panel.png');
         background-repeat: no-repeat;
         background-size: 100% ;
         background-position: center;
+        margin-top: 120px;
     }
     .company-container{
         max-width: 1440px;

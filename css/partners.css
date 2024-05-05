@@ -1,0 +1,223 @@
+.partners{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.partners-img{
+    display: none;
+}
+.partners-txt{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    font-family: "FuturaPT2",sans-serif;
+    justify-content: center;
+    gap: 20px;
+}
+.partners-txt::before{
+    content: '';
+    width: 35px;
+    height: 1px;
+    background-color: #1e8ff8;
+    display: block;
+}
+.partners-title-txt{
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-family: "FuturaPT2",sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.partners-container p{
+    padding-bottom: 20px;
+}
+.partners-title{
+    font-size: 25px;
+    font-family: 'FuturaPT2', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.partners-sub-title{
+    font-size: 25px;
+    font-family: 'FuturaPT2', sans-serif;
+    color: #1e8ff8;
+}
+.partners-box{
+    display: block;
+}
+.hero-list::before{
+    content: "";
+    width: 35px;
+    height: 35px;
+    border-radius: 14px;
+    border: 3px solid #fff;
+    display: block;
+    background-image: url(../images/tick.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-list:nth-child(1)::before{
+    background-color: #f90;
+}
+.hero-list:nth-child(2)::before{
+    background-color: #f03e3d;
+}
+.hero-list:nth-child(3)::before{
+    background-color: #4d8dff;
+}
+
+.hero-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-list:not(:last-child){
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+/* slide */
+
+.slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 320px;
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    /* z-index: 2; */
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+.slide {
+    height: 100px;
+    width: 250px;
+}
+@media (min-width: 768px){
+    .partners-container{
+        max-width: 1440px;
+    }
+    .partners-img{
+        display: flex;
+        width: 300px;
+    }
+    .partners-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .partners-txt{
+        font-size: 16px;
+    }
+    .partners-title-txt{
+        font-size: 40px;
+    }
+    .partners-container p{
+        font-size: 20px;
+    }
+    .hero-list{
+        font-size: 20px;
+    }
+    .partners-title, .partners-sub-title{
+        font-size: 40px;
+    }
+    .slider {
+        background: white;
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+        height: 100px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        width: 720px;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .partners-container{
+        max-width: 1440px;
+    }
+    .partners-img{
+        display: flex;
+        width: 450px;
+    }
+    .partners-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+    }
+    .partners-txt{
+        font-size: 16px;
+    }
+    .partners-title-txt{
+        font-size: 40px;
+    }
+    .partners-container p{
+        font-size: 20px;
+    }
+    .hero-list{
+        font-size: 20px;
+    }
+    .partners-title, .partners-sub-title{
+        font-size: 40px;
+    }
+    .slider {
+        background: white;
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+        height: 100px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        width: 1440px;
+    }
+}
