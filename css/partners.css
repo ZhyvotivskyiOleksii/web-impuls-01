@@ -1,6 +1,7 @@
 .partners{
     margin-top: 60px;
     margin-bottom: 60px;
+    background-image: url(../images/Group738.png);
 }
 .partners-img{
     display: none;
@@ -220,4 +221,6 @@
         position: relative;
         width: 1440px;
     }
+
 }
+
