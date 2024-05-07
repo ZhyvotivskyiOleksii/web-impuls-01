@@ -1,19 +1,14 @@
 .company{
-    margin-top: 120px;
     background-color: #F4F8FF;
-    
-}
-.company-container{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
+        margin-top:  40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
 
+}
 .company-box{
     text-align: center;
 
 }
-
-
 .offering{
     color: #0078ff;
     font-size: 16px;
@@ -122,19 +117,14 @@
 .company-list:hover{
     color: #0078ff;
 }
-@media (max-width: 767px){
-    .company-list:not(:last-child){
-        margin-bottom: 20px;
-    }
-    
-    
-}
+
 
 
 @media (min-width: 768px){
 
-    .company-container{
-        /* max-width: 768px; */
+    .company{
+       margin-top:  40px;
+       padding-top: 40px;
         
     }
     .offering{

@@ -1,10 +1,9 @@
 .buttom-box{
     text-align: center;
 }
-
 .title-buttom{
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 @media (min-width: 1200px){

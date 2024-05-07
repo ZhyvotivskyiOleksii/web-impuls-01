@@ -1,5 +1,5 @@
 
-.footer-container{
+.footer{
     background-color: black;
 }
 .logo-footer{
@@ -58,6 +58,7 @@
 
 .payment-footer{
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .card-pey{
@@ -70,13 +71,22 @@
 }
 .call-to-action{
     display: flex;
+    padding-top: 40px;
+    margin-left: 40px;
+    justify-content: center;
 }
 .call-text{
     color: #fff;
     font-size: 20px;
-    text-align: center;
+    
 }
 
 .arrow-icon{
     width: 20px;
+    margin-left: 10px;
+}
+
+
+@media (min-width: 1200px){
+    
 }

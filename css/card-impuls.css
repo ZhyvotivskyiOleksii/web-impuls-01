@@ -2,10 +2,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.card-title{
-    max-width: 380px;
-    margin-top: 40px;
-}
+
 .cards-container {
     display: flex;
     flex-direction: column;
@@ -50,7 +47,7 @@
 
 .card-item{
     display: inline-block;
-    height: 480px;
+    height: 450px;
     background-color: rgb(181, 181, 181);
     color: white;
     border-radius: 20px;
@@ -187,19 +184,19 @@
 }
 .card-item{
     width: 350px;
-    height: 520px;
+    height: 480px;
     background-color: rgb(181, 181, 181);
     color: white;
     border-radius: 20px;
     text-align: center;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
     position: relative;
     overflow: hidden;
     width: calc(100% - 10px) / 2;
 
 }
 .card-name{
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 25px;
     line-height: 140%;
     letter-spacing: -0.03em;
