@@ -193,6 +193,7 @@
     position: relative;
     overflow: hidden;
     width: calc(100% - 10px) / 2;
+    
 
 }
 .card-name{

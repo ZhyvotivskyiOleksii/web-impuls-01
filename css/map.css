@@ -1,0 +1,132 @@
+.map-title{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.world-map{
+    margin: 0 auto;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.pin{
+    background: #1b70f8;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: highlight 2s linear infinite;
+}
+
+@keyframes highlight{
+    100%{
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+.pin span{
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform:  translateY(-50%);
+    background: #FFF;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.marker1{
+    top: 60%;
+    left: 21%;
+}
+
+.marker2{
+    top: 45%;
+    left: 48%;
+}
+
+.marker3{
+    top: 23%;
+    left: 52%;
+}
+
+.marker4{
+    top: 78%;
+    left: 53%;
+}
+.marker5{
+    top: 71%;
+    left: 29%;
+}
+.marker6{
+    top: 42%;
+    left: 74%;
+}
+
+.marker7{
+    top: 20%;
+    left: 15%;
+}
+
+.marker8{
+    top: 75%;
+    left: 90%;
+}
+
+.marker9{
+    top: 23%;
+    left: 80%;
+}
+
+
+@media (min-width: 768px){
+    
+    .marker1{
+    top: 60%;
+    left: 21%;
+}
+
+.marker2{
+    top: 45%;
+    left: 48%;
+}
+
+.marker3{
+    top: 23%;
+    left: 52%;
+}
+
+.marker4{
+    top: 78%;
+    left: 53%;
+}
+.marker5{
+    top: 71%;
+    left: 29%;
+}
+.marker6{
+    top: 42%;
+    left: 74%;
+}
+
+.marker7{
+    top: 20%;
+    left: 15%;
+}
+
+.marker8{
+    top: 75%;
+    left: 90%;
+}
+
+.marker9{
+    top: 23%;
+    left: 80%;
+}
+
+}
