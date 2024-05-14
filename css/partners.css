@@ -32,18 +32,18 @@
     font-weight: 800;
     font-family: "FuturaPT2",sans-serif;
     text-align: center;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .partners-container p{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .partners-title{
     font-size: 25px;
     font-family: 'FuturaPT2', sans-serif;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    margin-top:  20px;
+    margin-bottom: 40px;
 }
 .partners-sub-title{
     font-size: 25px;
@@ -66,13 +66,13 @@
 }
 
 .hero-list:nth-child(1)::before{
-    background-color: #f90;
+    background-color: #1e8ff8;
 }
 .hero-list:nth-child(2)::before{
-    background-color: #f03e3d;
+    background-color: #4b21f5;
 }
 .hero-list:nth-child(3)::before{
-    background-color: #4d8dff;
+    background-color: #f3c00b;
 }
 
 .hero-list{
@@ -139,6 +139,11 @@
 }
 
 
+
+
+
+
+
 @media (min-width: 768px){
     .partners-container{
         max-width: 1440px;
@@ -180,7 +185,7 @@
 }
 
 
-@media (min-width: 1200px){
+@media (min-width: 1280px){
     .partners-container{
         max-width: 1440px;
     }
@@ -216,7 +221,7 @@
         margin: auto;
         overflow: hidden;
         position: relative;
-        width: 1440px;
+        width: 1200px;
     }
 
 }

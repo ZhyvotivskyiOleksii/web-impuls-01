@@ -14,6 +14,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,800;1,800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
+    <link
+    href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css//modal-block.css" />
   <link rel="stylesheet" href="./css/button-media.css" />
@@ -27,6 +31,7 @@
   <link rel="stylesheet" href="./css/partners.css" />
   <link rel="stylesheet" href="./css/card-impuls.css">
   <link rel="stylesheet" href="./css/map.css">
+  <link rel="stylesheet" href="./css/Cookies.css">
   <link rel="stylesheet" href="./css/footer.css" />
 
   <title>Web-Impuls</title>
@@ -49,14 +54,7 @@
           <li><a href="" class="nav-menu-item current">Акції</a></li>
         </ul>
       </nav>
-      <!-- <div class="header-cont-soc">
-        <address class="header-address">
-          <ul class="menu-mob-contakt">
-            <li>
-              <a class="header-tel-link" href="tel:+48572245574">+48 572 245 574</a>
-            </li>
-          </ul>
-        </address> -->
+
 
 
 
@@ -271,7 +269,7 @@
         <p>Наші веб-сайти відображають індивідуальність кожного клієнта, його характеристики, уподобання та
           загальну концепцію бізнесу. Ми піклуємося про те, щоб ваш сайт став продовженням вашої компанії у
           цифровому просторі. </p>
-        <div class="container partners-box">
+        <div class="partners-box">
           <img class="partners-img" src="./images/home-web.svg" width="400" alt="support">
           <ul class="partners-bg">
             <li class="hero-list">Нам довіряють лідери.</li>
@@ -285,6 +283,19 @@
       <div class="slider">
         <div class="slide-track">
           <div class="slide">
+            <img src="./images/partners/part6.svg" height="100" width="250" alt="" />
+          </div>
+
+          <div class="slide">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
           </div>
           <div class="slide">
@@ -306,25 +317,7 @@
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
           </div>
           <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-          </div>
-          <div class="slide">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            <img src="./images/03-1.png" height="100" width="250" alt="" />
           </div>
         </div>
       </div>
@@ -411,7 +404,7 @@
 
 
     <!-- =========================card-impuls============================================== -->
-<!-- <section class="card">
+<section class="card">
 
       <div class="container card-title">
         <h2 class="card-title-text">Скільки коштує розробка сайту !</h2>
@@ -440,9 +433,9 @@
           </li>
         </ul>
       </div>
-    </section> -->
+    </section>
 
- <!-- <section class="title-buttom">
+<section class="title-buttom">
       <div class="container container-buttom">
         <div class="buttom-box">
           <p>Якщо ви готові розпочати, не зволікайте! Довіртеся нашому досвіду та професіоналізму у розробці вашого
@@ -451,12 +444,15 @@
         <h2 class="map-title">Працюємо по всьому світу</h2>
         <div class="world-map">
           <img src="./images/mapa.png" alt="map">
+          
           <div class="pin marker1">
             <span>web-impuls</span>
           </div>
+          
           <div class="pin marker2">
-            <span class="map-title">web-impuls</span>
+            <span>web-impuls</span>
           </div>
+          
           <div class="pin marker3">
             <span>web-impuls</span>
           </div>
@@ -472,15 +468,15 @@
           <div class="pin marker7">
             <span>web-impuls</span>
           </div>
-          <div class="pin marker8">
+          <!-- <div class="pin marker8">
             <span>web-impuls</span>
-          </div>
+          </div> -->
           <div class="pin marker9">
             <span>web-impuls</span>
           </div>
         </div>
 
-    </section>  -->
+    </section>
 
 
 
@@ -489,34 +485,33 @@
 
 
     <!-------------------------footer----------------->
- <footer class="footer">
 
-      <div class="container footer-container">
+<section class="footer">
+<div class="container footer-container">
+  <a href="#" class="logo-brand">WEB<span class="logo-footer"> IMPULS</span></a>
+          
+          <div class="footer-content">
+            <ul class="footer-content-list">
+              <li>
+                <a href="#">
+                  <img src="/svg/map.svg" width="14px" alt="mapa" class="footer-icon">Warszawa
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/svg/email.svg" width="20px" alt="email" class="footer-icon">info@webimpuls.com
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="/svg/phone-foot.svg" width="20px" alt="phone" class="footer-icon">+48 796 238 044
+                </a>
+              </li>
+            </ul>
+          </div>
 
-        <div class="logo-footer">
-          <a href="#" class="logo-brand">WEB<span class="logo-footer"> IMPULS</span></a>
-        </div>
-
-        <div class="footer-content">
-          <ul class="footer-list">
-            <li>
-              <a href="#">
-                <img src="/svg/map.svg" width="14px" alt="mapa" class="footer-icon">Warszawa
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/svg/email.svg" width="20px" alt="email" class="footer-icon">info@webimpuls.com
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/svg/phone-foot.svg" width="20px" alt="phone" class="footer-icon">+48 796 238 044
-              </a>
-            </li>
-          </ul>
-          <div class="regulamin-box">
-            <ul class="regulamin">
+          <div class="regulamin">
+            <ul class="regulamin-list">
               <li>
                 <a href="#" target="_blank" class="info-footer">Regulamin</a>
               </li>
@@ -528,27 +523,33 @@
               </li>
             </ul>
           </div>
-        </div>
-
-
-
-        <div class="payment-footer">
-          <p>Web Impuls Sp. z o.o., KRS 0050842230, NIP: 5223189735, REGON: 38745836400100 Warszawa, Edwarda Habicha 18/
-            02-495</p>
-          <div class="card-pey">
-            <img src="/svg/payments-1.svg" width="60" height="160" alt="visa">
-            <img src="/svg/payments-2.svg" width="60" height="60" alt="visa">
-            <img src="/svg/mastercard.svg" width="130" height="130" alt="mastercard">
-            <img src="/svg/masterkard.svg" width="190" height="130" alt="mastercard">
+          
+          <div class="payment-footer">
+            <p>Web Impuls Sp. z o.o., KRS 0050842230, NIP: 5223189735, REGON: 38745836400100 Warszawa, Edwarda Habicha 18/02-495</p>
+              <div class="card-pey">
+                <img src="/svg/payments-1.svg" width="38" height="38" alt="visa">
+                <img src="/svg/payments-2.svg" width="49" height="16" alt="visa">
+                <img src="/svg/mastercard.svg" width="91" height="16" alt="mastercard">
+                <img src="/svg/masterkard.svg" width="141" height="16" alt="mastercard">
+              </div>
           </div>
+          
+        
+            <div class="call-to-action">
+              <span class="call-text">Контакт</span>
+              <img src="/svg/arow.svg" alt="Стрелка" class="arrow-icon">
+            </div>
+</div>
+</section>
 
-          <div class="call-to-action">
-            <span class="call-text">Контакт</span>
-            <img src="/svg/arow.svg" alt="Стрелка" class="arrow-icon">
-          </div>
-        </div>
 
-    </footer>
+
+
+
+
+
+
+
 
 
 
@@ -668,7 +669,22 @@
         </form>
       </div>
     </div>
-
+<!-- ======================Cookies==================== -->
+<div class="wrapper">
+  <div class="title-box">
+    <i class="bx bx-cookie"></i>
+    <h3>Згода на файли cookie</h3>
+  </div>
+  <div class="info">
+    <p>
+      Цей вебсайт використовує файли cookie, щоб допомогти вам мати кращий і більш релевантний досвід перегляду на вебсайті. <a href="#"> Дізнатися більше...</a>
+    </p>
+  </div>
+  <div class="buttons">
+    <button class="button" id="acceptBtn">Прийняти</button>
+    <button class="button">Відхилити</button>
+  </div>
+</div>
 
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
@@ -680,6 +696,9 @@
     <script src="./js/modal.js"></script>
     <script src="./js/animation-hero.js"></script>
     <script src="./js/map.js"></script>
+    <script src="./js/Cookies.js"></script>
+
+
 
 </body>
 

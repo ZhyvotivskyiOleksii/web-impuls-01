@@ -1,19 +1,19 @@
 
 .footer{
     background-color: black;
-
-}
-.logo-footer{
-    text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 .logo-brand{
+    display: block;
     font-size: 30px;
     color: #1e8ff8;
     font-family: "FuturaPT3",sans-serif;
     letter-spacing: 0.02;
     line-height: 125%;
+    text-align: center;
+
 
 }
 .logo-footer{
@@ -24,71 +24,78 @@
     font-family: "FuturaPT3",sans-serif;
 }
 
-.footer-content {
+
+.footer-content-list li{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff; 
+    flex-wrap: wrap;
+}
+.footer-icon {
+    margin-right: 10px;
+    width: 14px; 
+    height: auto; 
+}
+
+a {
+    display: flex;
+    align-items: center;
+    color: inherit;
+}
+.footer-content-list{
+    list-style: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-
-
-.footer-list li {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.footer-list li a {
-    display: inline-flex; 
     align-items: center; 
-    justify-content: center;
-    color: #e0ddddfc;
+    gap: 18px; 
 }
 
-.footer-icon {
-    margin-right: 12px;
-}
-
-.regulamin{
+.regulamin-list{
     display: flex;
-    gap: 8px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    color: #e0ddddfc;
     font-size: 12px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    color: #fff;
 }
 
-.payment-footer{
+.payment-footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-bottom: 50px;
+    font-size: 16px;
 }
 
 .card-pey{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     justify-content: center;
-    gap: 18px;
-    padding-top: 30px;
 }
 .call-to-action{
     display: flex;
-    padding-top: 40px;
-    margin-left: 40px;
+    align-items: center;
     justify-content: center;
+    padding-bottom: 40px;
+    
+
+
 }
+.arrow-icon{
+    width: 35px;
+    margin-right: 10px;
+}
+
 .call-text{
     color: #fff;
+    margin-right: 10px;
     font-size: 20px;
-    
 }
-
-.arrow-icon{
-    width: 20px;
-    margin-left: 10px;
-}
-
-
-@media (min-width: 768px){
-
-} 
-

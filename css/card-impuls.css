@@ -12,7 +12,6 @@
 
 
 .card-title-text {
-    padding-bottom: 20px;
     text-align: center; 
     font-size: 25px;
     font-family: "FuturaPT2",sans-serif;
@@ -36,6 +35,7 @@
     position: absolute;
     top: -50%;
     transition: 0.5s;
+    left: 0;
 }
 
 .card-item:hover::before{
@@ -47,7 +47,7 @@
 
 .card-item{
     display: inline-block;
-    height: 450px;
+    /* min-height: 450px; */
     background-color: rgb(181, 181, 181);
     color: white;
     border-radius: 20px;
@@ -55,13 +55,16 @@
     letter-spacing: -0.03em;
     position: relative;
     overflow: hidden;
+    padding: 20px;
+
 }
 
 .card-img-item{
     position: relative;
     transition: 0.5s;
     margin: 0 auto;
-    padding-top: 20px;
+    height: 150px;
+    
 }
 
 .card-item:hover .card-img-item{
@@ -140,9 +143,7 @@
 
 
 @media(min-width: 768px){
-    .card-title{
-        max-width: 768px;
-    }
+    
 .card-title-text {
     margin-bottom: 50px;
     text-align: center; 
@@ -153,6 +154,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 
@@ -183,8 +185,8 @@
     
 }
 .card-item{
-    width: 350px;
-    height: 480px;
+    
+    
     background-color: rgb(181, 181, 181);
     color: white;
     border-radius: 20px;
@@ -192,7 +194,7 @@
     letter-spacing: -0.02em;
     position: relative;
     overflow: hidden;
-    width: calc(100% - 10px) / 2;
+    width: calc((100% - 20px) / 2);
     
 
 }
@@ -214,16 +216,19 @@
 }
 
 
-@media(min-width: 1200px){
-    .card-title{
-        margin-top: 140px;
-        min-width: 1440px;
-        
-    }
+@media(min-width: 1280px){
+    
     .cards-container{
         display: flex;
         gap: 40px;
         align-items: center;
         justify-content: center;
+    }
+    .card-item{
+        width: calc((100% - 80px) / 3);
+    }
+    .card{
+        padding-top: 140px;
+        padding-bottom: 140px;
     }
 }
