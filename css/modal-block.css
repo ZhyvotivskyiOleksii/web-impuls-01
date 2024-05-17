@@ -46,7 +46,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding-top: 72px;
+  padding-top: 12px;
+  margin-top: 25px;
   padding-right: 24px;
   padding-bottom: 24px;
   padding-left: 24px;
