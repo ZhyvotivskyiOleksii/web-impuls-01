@@ -1,0 +1,111 @@
+#titleHeader, #titleMobile {
+    font-size: 18px;
+    text-align: center;
+    font-family: "FuturaPT2", sans-serif;
+    color: #1e8ff8;
+
+  }
+  
+  .language-switcher {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #languageButtonHeader, #languageButtonMobile {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #languageButtonHeader:focus, #languageButtonMobile:focus {
+    outline: none;
+  }
+  
+  .icon {
+    width: 60px;
+    height: 40px;
+  }
+  
+  .language-menu {
+    display: none;
+    position: absolute;
+    top: 70px; /* Учитываем высоту иконки и текста */
+    left: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 150px;
+  }
+  
+  .language-menu a {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .language-menu a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .language-menu img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+
+  .mobile-language-switcher {
+    display: none;
+  }
+  
+  @media (max-width: 1200px) {
+    /* Скрываем кнопку в шапке на малых экранах */
+    .header-language-switcher {
+      display: none;
+    }
+    
+    /* Показываем кнопку в мобильном меню на малых экранах */
+    .mobile-language-switcher {
+      display: block;
+      width: 100%; /* Добавляем ширину 100% */
+      text-align: center; /* Центрируем текст */
+    }
+  
+    .mobile-language-switcher button {
+      margin: 0 auto; /* Центрируем кнопку */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /* Показываем кнопку в шапке на больших экранах */
+    .header-language-switcher {
+      display: block;
+    }
+    
+    /* Скрываем кнопку в мобильном меню на больших экранах */
+    .mobile-language-switcher {
+      display: none;
+    }
+  }
+  

@@ -4,26 +4,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="icon" href="/svg/favicon.svg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,800;1,800&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
-        <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,800;1,800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="./css//modal-block.css" />
+  <link rel="stylesheet" href="./css/modal-block.css" />
   <link rel="stylesheet" href="./css/button-media.css" />
   <link rel="stylesheet" href="./css/reset.css" />
   <link rel="stylesheet" href="./css/base.css" />
   <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/len.css" />
   <link rel="stylesheet" href="./css/animation-hero.css" />
   <link rel="stylesheet" href="./css/hero.css">
   <link rel="stylesheet" href="./css/company.css" />
@@ -42,169 +36,183 @@
   <!-- ==========================header============================== -->
   <header class="header">
     <div class="container header-container">
-      <a href="./index.html"><img class="logo-modal-header" src="./svg/logo-modal.svg" alt="logo-modal"></a>
-      <button class="js-open-menu open-menu-btn" type="button"><img id="burger" src="../images/burger.svg" /></button>
+      <a href="./index.html"><img id="logoHeader" class="logo-modal-header" src="./svg/logo-modal.svg" alt="logo-modal"></a>
 
+      <button class="js-open-menu open-menu-btn" type="button"><img id="burger" src="../images/burger.svg" /></button>
 
       <nav class="navbar">
         <ul class="header-list">
-          <li><a href="" class="nav-menu-item current">Послуги</a></li>
-          <li><a href="" class="nav-menu-item current">Ціни</a></li>
-          <li><a href="" class="nav-menu-item current">Відгуки</a></li>
-          <li><a href="" class="nav-menu-item current">Контакт</a></li>
-          <li><a href="" class="nav-menu-item current">Акції</a></li>
+          <li><a href="#" class="nav-menu-item current" data-translate-key="services">Послуги</a></li>
+          <li><a href="#" class="nav-menu-item current" data-translate-key="prices">Ціни</a></li>
+          <li><a href="#" class="nav-menu-item current" data-translate-key="reviews">Відгуки</a></li>
+          <li><a href="#" class="nav-menu-item current" data-translate-key="contact">Контакт</a></li>
+          <li><a href="#" class="nav-menu-item current" data-translate-key="promotions">Акції</a></li>
         </ul>
       </nav>
 
+      <div class="address-box">
+        <ul class="address-list">
+          <li class="mob-icon-team-media">
+            <a href="https://www.facebook.com/goITclub/" target="_blank" class="mob-icon-link">
+              <svg class="icon-social-header" width="21" height="21">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-icon-team-media">
+            <a href="https://www.instagram.com/goitclub/" target="_blank" class="mob-icon-link">
+              <svg class="icon-social-header" width="21" height="21">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-icon-team-media">
+            <a href="https://www.youtube.com/c/GoIT" target="_blank" class="mob-icon-link">
+              <svg class="icon-social-header" width="22" height="22">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-
-
-        <div class="address-box">
-          <ul class="address-list">
-            <li class="mob-icon-team-media">
-              <a href="https://www.facebook.com/goITclub/" target="_blank" class="mob-icon-link">
-                <svg class="icon-social-header" width="21" height="21">
-                  <use href="./images/icons.svg#icon-facebook">
-                  </use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-icon-team-media">
-              <a href="https://www.instagram.com/goitclub/" target="_blank" class="mob-icon-link">
-                <svg class="icon-social-header" width="21" height="21">
-                  <use href="./images/icons.svg#icon-instagram">
-                  </use>
-                </svg>
-              </a>
-            </li>
-            <li class="mob-icon-team-media">
-              <a href="https://www.youtube.com/c/GoIT" target="_blank" class="mob-icon-link">
-                <svg class="icon-social-header" width="22" height="22">
-                  <use href="./images/icons.svg#icon-twitter">
-                  </use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+      <div class="language-switcher header-language-switcher">
+        <button id="languageButtonHeader">
+          <div class="icon-container">
+            <img src="./svg/translate.svg" width="80" height="30" alt="Language" class="icon">
+            <p id="titleHeader">Language</p>
+          </div>
+        </button>
+        <div id="languageMenuHeader" class="language-menu">
+          <a href="#" data-lang="en"><img src="./svg/usa.svg" width="20" height="20" alt="English"> English</a>
+          <a href="#" data-lang="pl"><img src="./svg/poland.svg" width="20" height="20" alt="Polski"> Polish</a>
+          <a href="#" data-lang="uk"><img src="./svg/ua.svg" width="22" height="22" alt="Українська"> Українська</a>
         </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================mob-menu======================== -->
+  <nav class="navbar-m js-menu-container">
+    <div class="mobile-menu-box">
       
+<img id="logoMobile" class="logo-menu-mob" src="./svg/logo-modal.svg" alt="logo-modal">
+
+      <button class="js-close-menu close-menu-btn" type="button"><img id="burger" src="../images/menu-of.svg" /></button>
     </div>
 
-    <!-- ==================mob-menu======================== -->
+    <div class="menu-m">
+      <ul>
+        <li>
+          <a href="/index.html">
+            <img src="../svg/menu-cheader.svg" width="30" height="30" alt="Главная">
+            <span class="gift-title" data-translate-key="services">Послуги</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="../images/onas.svg" width="30" height="30" alt="Главная">
+            <span class="gift-title" data-translate-key="prices">Ціни та кейси</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="../images/blog.svg" width="30" height="30" alt="Главная">
+            <span class="gift-title" data-translate-key="reviews">Відгуки</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="../images/contact.svg" width="30" height="30" alt="Главная">
+            <span class="gift-title" data-translate-key="contact">Контакт</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="../svg/gift.svg" width="30" height="30" alt="Главная">
+            <span class="gift-title" data-translate-key="promotions">Акції</span>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-
-    <nav class="navbar-m js-menu-container">
-      <div class="mobile-menu-box">
-        <img class="logo-menu-mob" src="./svg/logo-modal.svg" alt="logo-modal">
-        <button class="js-close-menu close-menu-btn" type="button"><img id="burger"
-            src="../images/menu-of.svg" /></button>
+    <div class="nav-mob-contakt">
+      <ul class="mob-address-list">
+        <li class="mob-contact"><a href="tel:+48796238044" class="mob-menu-address active">+48 572 245 57</a></li>
+        <li class="mob-contact"><a href="mailto:info@web-impuls.com" class="mob-menu-address">info@web-impuls.com</a></li>
+        <li>
+          <p>Warszawa Mazovia</p>
+        </li>
+      </ul>
+    </div>
+    <div class="language-switcher mobile-language-switcher">
+      <button id="languageButtonMobile">
+        <div class="icon-container">
+          <img src="./svg/translate.svg" width="80" height="30" alt="Language" class="icon">
+          <p id="titleMobile">Language</p>
+        </div>
+      </button>
+      <div id="languageMenuMobile" class="language-menu">
+        <a href="#" data-lang="en"><img src="./svg/usa.svg" width="20" height="20" alt="English"> English</a>
+        <a href="#" data-lang="pl"><img src="./svg/poland.svg" width="20" height="20" alt="Polski"> Polish</a>
+        <a href="#" data-lang="uk"><img src="./svg/ua.svg" width="22" height="22" alt="Українська"> Українська</a>
       </div>
+    </div>
+    <div class="media-m">
+      <ul>
+        <li>
+          <a href="https://example.com" target="_blank" class="form-icon">
+            <img src="../svg/form.fb.svg" width="75" alt="Иконка">
+          </a>
+        </li>
+        <li>
+          <a href="https://example.com" target="_blank" class="form-icon">
+            <img src="../svg/form-tel.svg" width="75" alt="Иконка">
+          </a>
+        </li>
+        <li>
+          <a href="https://example.com" target="_blank" class="form-icon">
+            <img src="../svg/form-wat.svg" width="75" alt="Иконка">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-      <div class="menu-m">
-        <ul>
-          <li>
-            <a href="/index.html">
-              <img src="../svg/menu-cheader.svg" width="30" height="30" alt="Главная">
-              <span class="gift-title">Послуги</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              <img src="../images/onas.svg" width="30" height="30" alt="Главная">
-              <span class="gift-title">Ціни та кейси</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="../images/blog.svg" width="30" height="30" alt="Главная">
-              <span class="gift-title">Відгуки</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              <img src="../images/contact.svg" width="30" height="30" alt="Главная">
-              <span class="gift-title">Контакт</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              <img src="../svg/gift.svg" width="30" height="30" alt="Главная">
-              <span class="gift-title">Акції</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="nav-mob-contakt">
-        <ul class="mob-address-list">
-          <li class="mob-contact"><a href="tel:+48796238044" class="mob-menu-address active">+48 572 245 57</a></li>
-          <li class="mob-contact"><a href="mailto:info@web-impuls.com" class="mob-menu-address">info@web-impuls.com</a>
-          </li>
-          <li>
-            <p>Warszawa Mazovia</p>
-          </li>
-        </ul>
-      </div>
-      <div class="media-m">
-        
-        <ul>
-          <li>
-            <a href="https://example.com" target="_blank" class="form-icon">
-              <img src="../svg/form.fb.svg" width="75" alt="Иконка">
-            </a>
-          </li>
-
-          <li>
-            <a href="https://example.com" target="_blank" class="form-icon">
-              <img src="../svg/form-tel.svg" width="75" alt="Иконка">
-            </a>
-          </li>
-
-          <li>
-            <a href="https://example.com" target="_blank" class="form-icon">
-              <img src="../svg/form-wat.svg" width="75" alt="Иконка">
-            </a>
-          </li>
-        </ul>
-
-      </div>
-    </nav>
-  </header>
   <main>
+
+
+
+
+
+
+
+
     <!-- =========================hero-section========================= -->
 
-<section class="hero">
+    <section class="hero">
       <div class="container hero-container">
         <div class="hero-box">
           <h1 class="hero-title">STUDIO<span class="busines"><br>WEB</span>IMPULS</h1>
-          <p class="hero-subtitle anime-text">Створення дизайну, розробка сайту під ключ з просуванням його в Google до
-            топових позицій</p>
-          <p class="hero-subtitle">Звертаючись до нашої веб-студії ви отримаєте максимальний результат за доступною
-            ціною для вашого бізнесу.</p>
-
+          <p class="hero-subtitle anime-text" data-translate-key="heroSubtitle1">Створення дизайну, розробка сайту під ключ з просуванням його в Google до топових позицій</p>
+          <p class="hero-subtitle" data-translate-key="heroSubtitle2">Звертаючись до нашої веб-студії ви отримаєте максимальний результат за доступною ціною для вашого бізнесу.</p>
           <div class="hero-btn-box">
-            <button data-modal-open type="button" class="hero-btn">Замовити сайт <svg class="hero-btn-icon" width="16"
-                height="16">
-                <use href="./images/icons.svg#icon-arrow-right">
-
-                </use>
-              </svg> </button>
+            <button data-modal-open type="button" class="hero-btn" data-translate-key="orderButton">Замовити сайт <svg class="hero-btn-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
             <div class="hero-text-wrap">
-              <h2 class="hero-time">200+</h2>
-              <span class="span-hero">Задоволених клієнтів</span>
+              <h2 class="hero-time" data-translate-key="clientsCount">200+</h2>
+              <span class="span-hero" data-translate-key="satisfiedClients">Задоволених клієнтів</span>
             </div>
           </div>
         </div>
-
         <div class="hero-cont-tu">
           <img class="img-top" src="./images/audyt-02.svg" alt="hero-img">
         </div>
       </div>
-
     </section>
+    
 
 
 
@@ -742,6 +750,7 @@
     <script src="./js/modal.js"></script>
     <script src="./js/animation-hero.js"></script>
     <script src="./js/map.js"></script>
+    <script src="./js/translate.js"></script>
     <script src="./js/Cookies.js"></script>
 
 
