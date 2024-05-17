@@ -228,7 +228,7 @@
         width: calc((100% - 80px) / 3);
     }
     .card{
-        padding-top: 140px;
-        padding-bottom: 140px;
+        padding-top: 40px;
+        padding-bottom: 60px;
     }
 }

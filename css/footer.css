@@ -99,3 +99,51 @@ a {
     margin-right: 10px;
     font-size: 20px;
 }
+
+
+
+@media (min-width: 1280px) {
+        .footer-content-list {
+            display: flex;
+          flex-direction: row;
+          justify-content: center;
+          font-size: 16px;
+        }
+
+        .footer-content-list li {
+        margin: 0 20px;
+        }
+        .regulamin-list{
+            display: flex;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        .info-footer{
+            border: 1px solid #5c5a5a;
+            padding: 8px 16px;
+            border-radius: 16px;
+        }
+        .info-footer:hover{
+            background-color:#767474;
+        }
+        .payment-footer{
+            font-size: 16px;
+        }
+        .call-to-action{
+            display: none;
+        }
+        .footer-img-pey-1{
+            width: 58px;
+        }
+        .footer-img-pey-2{
+            width: 68px;
+        }
+        .footer-img-pey-3{
+            width: 158px;
+        }
+        .footer-img-pey-4{
+            width: 200px;
+        }
+}
+

@@ -14,10 +14,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,800;1,800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-    <link
-    href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-    rel="stylesheet"
-  />
+        <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css//modal-block.css" />
   <link rel="stylesheet" href="./css/button-media.css" />
@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="./css/company.css" />
   <link rel="stylesheet" href="./css/construction.css" />
   <link rel="stylesheet" href="./css/partners.css" />
+  <link rel="stylesheet" href="./css/revie.css">
   <link rel="stylesheet" href="./css/card-impuls.css">
   <link rel="stylesheet" href="./css/map.css">
   <link rel="stylesheet" href="./css/Cookies.css">
@@ -399,6 +400,51 @@
         </div>
       </div>
     </section>
+<!-- ===========revies=============== -->
+<section class="revie">
+  <h3 class="revie-title">Відгуки наших клієнтів</h3>
+  <div class="container review-container">
+    <div class="review">
+      <div class="review-header">
+        <button class="nav-button prev">
+          <svg class="icon-arrow1" width="45" height="45">
+            <use href="./images/icons.svg#icon-arrow1"></use>
+          </svg>
+        </button>
+        <div class="review-header-content">
+          <h3 class="review-name">Anna</h3>
+          <div class="review-stars">
+            <!-- Звезды будут добавлены через JavaScript -->
+          </div>
+        </div>
+        <button class="nav-button next">
+          <svg class="icon-arrow1" width="45" height="45">
+            <use href="./images/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </div>
+      <p class="review-text">
+        jestem zadowolona ze sprzątania. punktualność, szybkość pracy, ładny zapach detergentów. wykonawca uprzejmy. dziękuję.
+      </p>
+      <a href="#" class="review-link">
+        Переглянути Відгуки
+        <img src="./svg/view.svg" width="30" height="30" alt="Review Icon" class="review-icon">
+      </a>
+    </div>
+  </div>
+  <div class="review-buttons">
+    <button class="review-button leave-review">
+      <img class="leave-icon" src="./svg/leave-review.svg" width="25" height="50" alt="Leave Review Icon">
+      Залишити відгук
+    </button>
+    <button class="review-button all-reviews">
+      Усі відгуки
+      <img class="leave-icon" width="20" height="50" src="./svg/all-reviews.svg" alt="All Reviews Icon">
+    </button>
+  </div>
+</section>
+
+
 
 
 
@@ -527,10 +573,10 @@
           <div class="payment-footer">
             <p>Web Impuls Sp. z o.o., KRS 0050842230, NIP: 5223189735, REGON: 38745836400100 Warszawa, Edwarda Habicha 18/02-495</p>
               <div class="card-pey">
-                <img src="/svg/payments-1.svg" width="38" height="38" alt="visa">
-                <img src="/svg/payments-2.svg" width="49" height="16" alt="visa">
-                <img src="/svg/mastercard.svg" width="91" height="16" alt="mastercard">
-                <img src="/svg/masterkard.svg" width="141" height="16" alt="mastercard">
+                <img class="footer-img-pey-1" src="/svg/payments-1.svg" width="38" height="38" alt="visa">
+                <img class="footer-img-pey-2" src="/svg/payments-2.svg" width="49" height="16" alt="visa">
+                <img class="footer-img-pey-3" src="/svg/mastercard.svg" width="91" height="16" alt="mastercard">
+                <img class="footer-img-pey-4" src="/svg/masterkard.svg" width="141" height="16" alt="mastercard">
               </div>
           </div>
           
@@ -541,7 +587,6 @@
             </div>
 </div>
 </section>
-
 
 
 
@@ -693,6 +738,7 @@
     <script src="./js/media-button.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/bilding.js"></script>
+    <script src="./js/revie.js"></script>
     <script src="./js/modal.js"></script>
     <script src="./js/animation-hero.js"></script>
     <script src="./js/map.js"></script>
