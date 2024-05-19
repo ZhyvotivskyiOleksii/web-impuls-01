@@ -50,7 +50,7 @@ function showReview(index) {
   starsContainer.innerHTML = '';
   for (let i = 0; i < 5; i++) {
     const star = document.createElement('img');
-    star.src = i < review.stars ? './svg/star.svg' : './svg/star.svg';
+    star.src = i < review.stars ? './svg/star.svg' : './svg/star-empty.svg';
     starsContainer.appendChild(star);
   }
   document.querySelector('.review-text').textContent = review.text;
@@ -64,6 +64,18 @@ document.querySelector('.prev').addEventListener('click', () => {
 document.querySelector('.next').addEventListener('click', () => {
   currentReview = (currentReview === reviews.length - 1) ? 0 : currentReview + 1;
   showReview(currentReview);
+});
+
+document.getElementById('leaveReviewButton').addEventListener('click', function() {
+    // Замініть URL нижче на реальний URL вашої сторінки Google відгуків
+    const googleReviewUrl = 'https://www.google.com/maps/place/YOUR_BUSINESS_PLACE_ID/reviews';
+    window.open(googleReviewUrl, '_blank');
+});
+
+document.getElementById('allReviewsButton').addEventListener('click', function() {
+    // Замініть URL нижче на URL сторінки з усіма відгуками на вашому сайті
+    const allReviewsPageUrl = '/all-reviews.html';
+    window.location.href = allReviewsPageUrl;
 });
 
 // Показать первый отзыв при загрузке страницы

@@ -5,6 +5,7 @@
     padding-bottom: 40px;
 }
 
+
 .review-container {
     display: flex;
     align-items: center;
@@ -100,8 +101,9 @@
 
 .review-buttons {
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
-    margin-top: 20px;
+    
 }
 
 .review-button {
@@ -113,12 +115,12 @@
     border: 1px solid rgba(255, 255, 255, .06);
     padding: 8px 20px;
     font-size: 16px;
-    border-radius: 18px;
+    border-radius: 15px;
     color: #ffffff;
     cursor: pointer;
     margin: 0 10px;
     margin-top: 20px;
-    background-color: #1e8ff8;
+    background-color: #0682f7;
 }
 
 .review-button:hover {
@@ -154,6 +156,11 @@
     .review-stars {
         margin: 10px 0;
     }
+    .review-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+
 }
 
 

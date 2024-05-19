@@ -1,7 +1,7 @@
 
 .header{
-  padding-bottom: 20px;
-  padding-top: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
   z-index: 1000; 
   position: fixed;
@@ -105,11 +105,11 @@ background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 20px;
 }
-.menu-m{
+/* .menu-m{
   margin-top: 40px;
-}
+} */
 .menu-m a {
   display: flex;
   align-items: center; 
@@ -254,12 +254,12 @@ background-position: center;
   display: none;
 }
 .mob-icon-link{
-  padding: 8px 6px;
-  border-radius: 6px;
-  background-color: rgba(196, 195, 195, 0.28);
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(12, 12, 12, .1);
 }
 .mob-icon-link:hover{
-  background-color: rgba(196, 195, 195, 0.51);
+  background-color: rgba(223, 219, 219, 0.51);
 }
 }  
 
