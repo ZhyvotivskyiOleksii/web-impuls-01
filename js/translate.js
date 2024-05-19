@@ -63,6 +63,13 @@ const translations = {
         "card-name3": "CORPORATE",
         "card-subtitle3": "The best choice for promoting your business online.",
         "btn-item1": "ORDER",
+        "fromText": "From",
+        "fromText": "From",
+        "currencyText": "USD",
+        "currencyText": "USD",
+        "fromText": "From",
+        "currencyText": "USD",
+
         "btn-item2": "ORDER",
         "btn-item3": "ORDER",
         "buttom-box-text": "If you are ready to start, do not hesitate! Trust our experience and professionalism in developing your website. With us, your project will be implemented quickly and efficiently. Contact us!",
@@ -142,6 +149,35 @@ const translations = {
     "our-approach-subtitle": "We always focus on the needs of our clients and are ready to offer optimal solutions that match your budget capabilities. For example, for small businesses, we can offer a template site, which will be cheaper but still functional and attractive. If you need an exclusive site with unique design and extended capabilities, the cost will be higher.",
     "pricing-flexibility-title": "Pricing flexibility:",
     "pricing-flexibility-subtitle": "We are always open to discussion and flexible in pricing. Our specialists will help you determine the best option, considering your needs and capabilities. You will receive an individual approach and professional execution of each project.",
+    "reviews-hero-title": "Here are some of our awards and achievements.",
+        "facebook-title": "Facebook",
+        "facebook-average-rating": "Average rating on Facebook",
+        "facebook-rating": "4.8",
+        "google-title": "Google",
+        "google-average-rating": "Average rating on Google",
+        "google-rating": "4.6",
+        "reviewsTitle": "Customer Reviews",
+        "reviewName1": "Alexander",
+        "reviewText1": "The team of professionals quickly and efficiently created our corporate website. Very satisfied with the cooperation!",
+        "reviewName2": "Anna",
+        "reviewText2": "Great support for our site. All issues are resolved promptly and professionally. I recommend!",
+        "reviewName3": "Marek",
+        "reviewText3": "The team of experts quickly created our company website. Very satisfied with the cooperation!",
+        "reviewName4": "Ewa",
+        "reviewText4": "Excellent service and support for our online store. Very grateful for the work!",
+        "reviewName5": "Igor",
+        "reviewText5": "The development of our site went flawlessly. The team is always in touch and ready to help at any moment.",
+        "reviewName6": "Magda",
+        "reviewText6": "Great service and support for our website. Thank you very much for your work!",
+        "reviewName7": "Olena",
+        "reviewText7": "The website development was done very quickly and professionally. The team took into account all our wishes. We recommend!",
+        "reviewName8": "Krzysztof",
+        "reviewText8": "Ordering a website went smoothly. The company delivered everything on time and according to requirements. I recommend!",
+        "leaveGoogleReview": "Leave a review on",
+        "googleText": "Google",
+        "leaveFacebookReview": "Leave a review on",
+        "facebookText": "Facebook",
+        "contactAdvice": "If you have any questions or would like to receive a consultation, contact us and we will be happy to help you develop a website that best meets your needs and budget.",
 
 
     },
@@ -203,12 +239,19 @@ const translations = {
         "all-reviews": "Wszystkie Opinie",
         "card-title-text": "Ile kosztuje rozwój strony internetowej!",
         "card-name1": "WIZYTÓWKA",
+        "fromText": "Od",
+        "currencyText": "USD",
+        "fromText": "Od",
+        "currencyText": "USD",
+
         "card-subtitle1": "Dla nowoczesnego biznesu tworzenie strony wizytówki jest wielką koniecznością",
         "card-name2": "LANDING PAGE",
         "card-subtitle2": "Dla tych, którzy dążą do osiągnięcia najlepszego wyniku.",
         "card-name3": "KORPORACYJNY",
         "card-subtitle3": "Najlepszy wybór do promowania swojej firmy w Internecie.",
         "btn-item1": "ZAMÓWIĆ",
+        "fromText": "Od",
+        "currencyText": "USD",
         "btn-item2": "ZAMÓWIĆ",
         "btn-item3": "ZAMÓWIĆ",
         "buttom-box-text": "Jeśli jesteś gotowy, aby zacząć, nie wahaj się! Zaufaj naszemu doświadczeniu i profesjonalizmowi w tworzeniu Twojej strony internetowej. Z nami Twój projekt zostanie zrealizowany szybko i skutecznie. Skontaktuj się z nami!",
@@ -288,6 +331,36 @@ const translations = {
     "our-approach-subtitle": "Zawsze koncentrujemy się na potrzebach naszych klientów i jesteśmy gotowi zaoferować optymalne rozwiązania odpowiadające Twoim możliwościom budżetowym. Na przykład dla małych firm możemy zaoferować stronę szablonową, która będzie tańsza, ale jednocześnie funkcjonalna i atrakcyjna. Jeśli potrzebujesz ekskluzywnej strony z unikalnym projektem i rozszerzonymi możliwościami, koszt będzie wyższy.",
     "pricing-flexibility-title": "Elastyczność cenowa:",
     "pricing-flexibility-subtitle": "Zawsze jesteśmy otwarci na dyskusje i elastyczni w ustalaniu cen. Nasi specjaliści pomogą Ci wybrać najlepszą opcję, biorąc pod uwagę Twoje potrzeby i możliwości. Otrzymasz indywidualne podejście i profesjonalne wykonanie każdego projektu.",
+    "reviews-hero-title": "Oto niektóre z naszych nagród i osiągnięć.",
+        "facebook-title": "Facebook",
+        "facebook-average-rating": "Średnia ocena na Facebooku",
+        "facebook-rating": "4.8",
+        "google-title": "Google",
+        "google-average-rating": "Średnia ocena w Google",
+        "google-rating": "4.6",
+        "reviewsTitle": "Opinie naszych klientów",
+        "reviewName1": "Aleksander",
+        "reviewText1": "Zespół profesjonalistów szybko i sprawnie stworzył naszą stronę korporacyjną. Bardzo zadowolony ze współpracy!",
+        "reviewName2": "Anna",
+        "reviewText2": "Świetne wsparcie naszej strony. Wszystkie problemy są rozwiązywane szybko i profesjonalnie. Polecam!",
+        "reviewName3": "Marek",
+        "reviewText3": "Zespół ekspertów szybko stworzył naszą firmową stronę internetową. Jestem bardzo zadowolony ze współpracy!",
+        "reviewName4": "Ewa",
+        "reviewText4": "Doskonała obsługa i wsparcie naszego sklepu internetowego. Bardzo wdzięczni za pracę!",
+        "reviewName5": "Igor",
+        "reviewText5": "Rozwój naszej strony przebiegł bez zarzutu. Zespół jest zawsze w kontakcie i gotowy do pomocy w każdej chwili.",
+        "reviewName6": "Magda",
+        "reviewText6": "Świetna obsługa i wsparcie naszej strony internetowej. Bardzo dziękujemy za pracę!",
+        "reviewName7": "Olena",
+        "reviewText7": "Rozwój strony internetowej został wykonany bardzo szybko i profesjonalnie. Zespół uwzględnił wszystkie nasze życzenia. Polecamy!",
+        "reviewName8": "Krzysztof",
+        "reviewText8": "Zamówienie strony internetowej przeszło gładko. Firma dostarczyła wszystko na czas i zgodnie z wymaganiami. Polecam!",
+        "leaveGoogleReview": "Zostaw opinię w",
+        "googleText": "Google",
+        "leaveFacebookReview": "Zostaw opinię w",
+        "facebookText": "Facebook",
+        "contactAdvice": "Jeśli masz pytania lub chcesz otrzymać konsultację, skontaktuj się z nami, a my z przyjemnością pomożemy Ci opracować stronę internetową, która najlepiej odpowiada Twoim potrzebom i budżetowi.",
+
 
 
     },
@@ -356,6 +429,12 @@ const translations = {
         "card-subtitle3": "Найкращий вибір для просування своєї справи в інтернеті.",
         "btn-item1": "ЗАМОВИТИ",
         "btn-item2": "ЗАМОВИТИ",
+        "fromText": "Від",
+        "fromText": "Від",
+        "fromText": "Від",
+        "currencyText": "USA",
+        "currencyText": "USA",
+        "currencyText": "USD",
         "btn-item3": "ЗАМОВИТИ",
         "buttom-box-text": "Якщо ви готові розпочати, не зволікайте! Довіртеся нашому досвіду та професіоналізму у розробці вашого сайту. З нами ваш проєкт буде реалізовано швидко та ефективно. Зв'яжіться з нами!",
         "buttom-box-text1": "Працюємо по всьому світу",
@@ -434,56 +513,91 @@ const translations = {
     "our-approach-subtitle": "Ми завжди орієнтуємося на потреби наших клієнтів і готові запропонувати оптимальні рішення, що відповідають вашим бюджетним можливостям. Наприклад, для невеликого бізнесу ми можемо запропонувати шаблонний сайт, який буде коштувати дешевше, але водночас залишиться функціональним та привабливим. Якщо ж вам потрібен ексклюзивний сайт з унікальним дизайном та розширеними можливостями, вартість буде вищою.",
     "pricing-flexibility-title": "Гнучкість у ціноутворенні:",
     "pricing-flexibility-subtitle": "Ми завжди готові до обговорення та гнучкі в ціноутворенні. Наші фахівці допоможуть визначити найкращий варіант, враховуючи ваші потреби та можливості. Ви отримаєте індивідуальний підхід та професійне виконання кожного проекту.",
-    
+    "reviews-hero-title": "Тут зібрані деякі наші нагороди та досягнення.",
+        "facebook-title": "Facebook",
+        "facebook-average-rating": "Середня оцінка на Facebook",
+        "facebook-rating": "4.8",
+        "google-title": "Google",
+        "google-average-rating": "Середня оцінка в Google",
+        "google-rating": "4.6",
+        "reviewsTitle": "Думки наших клієнтів",
+        "reviewName1": "Олександр",
+        "reviewText1": "Команда професіоналів швидко та якісно створила наш корпоративний сайт. Дуже задоволений співпрацею!",
+        "reviewName2": "Анна",
+        "reviewText2": "Чудова підтримка нашого сайту. Всі питання вирішуються оперативно та професійно. Рекомендую!",
+        "reviewName3": "Марек",
+        "reviewText3": "Зespół ekspertów szybko stworzył naszą firmową stronę internetową. Jestem bardzo zadowolony ze współpracy!",
+        "reviewName4": "Єва",
+        "reviewText4": "Відмінне обслуговування та підтримка нашого інтернет-магазину. Дуже вдячні за роботу!",
+        "reviewName5": "Ігор",
+        "reviewText5": "Розробка нашого сайту пройшла бездоганно. Команда постійно на зв'язку та готова допомогти в будь-який момент.",
+        "reviewName6": "Магда",
+        "reviewText6": "Świetna obsługa i wsparcie naszej strony internetowej. Bardzo dziękujemy za pracę!",
+        "reviewName7": "Олена",
+        "reviewText7": "Розробка веб-сайту була виконана дуже швидко та професійно. Команда врахувала всі наші побажання. Рекомендуємо!",
+        "reviewName8": "Кшиштоф",
+        "reviewText8": "Zamówienie strony internetowej przeszło gładko. Firma dostarczyła wszystko na czas i zgodnie z wymaganiami. Polecam!",
+        "leaveGoogleReview": "Залиште відгук у",
+        "googleText": "Google",
+        "leaveFacebookReview": "Залиште відгук у",
+        "facebookText": "Facebook",
+        "contactAdvice": "Якщо у вас є питання або ви хочете отримати консультацію, звертайтеся до нас, і ми з радістю допоможемо вам розробити сайт, який найкраще відповідає вашим потребам та бюджету.",
+        
+
 
     }
 };
 
-// Функция для определения языка системы пользователя
+// Функція для визначення мови системи користувача
 function getUserLanguage() {
     return navigator.language || navigator.userLanguage;
 }
 
-// Функция для установки языка
+// Функція для встановлення мови
 function setLanguage(language) {
-    const lang = translations[language] ? language : 'en'; // Используем английский по умолчанию
+    const lang = translations[language] ? language : 'en'; // Використовуємо англійську за замовчуванням
 
     document.getElementById('titleHeader').innerText = translations[lang].title;
     document.getElementById('titleMobile').innerText = translations[lang].title;
 
-    // Обновляем текстовые элементы меню и другие элементы
+    // Оновлюємо текстові елементи
     document.querySelectorAll('[data-translate-key]').forEach(element => {
         const key = element.getAttribute('data-translate-key');
-        element.innerText = translations[lang][key];
+        if (translations[lang][key]) {
+            element.innerText = translations[lang][key];
+        }
     });
 
-    // Обновляем логотипы
+    // Оновлюємо логотипи
     document.getElementById('logoHeader').src = translations[lang].logo;
     document.getElementById('logoMobile').src = translations[lang].logo;
 
-    // Обновляем логотип в модальном окне
-    // document.getElementById('logoModal').src = translations[lang]['logo-modal'];
-
-    // Обновляем URL
+    // Оновлюємо URL
     const currentUrl = new URL(window.location);
     currentUrl.searchParams.set('lang', lang);
     window.history.pushState({}, '', currentUrl);
+
+    // Зберігаємо вибір мови у localStorage
+    localStorage.setItem('selectedLanguage', lang);
 }
 
-// Определяем язык пользователя и устанавливаем соответствующий язык на сайте при загрузке
+// Визначаємо мову користувача та встановлюємо відповідну мову на сайті при завантаженні
 function initializeLanguage() {
     const urlParams = new URLSearchParams(window.location.search);
     const langFromUrl = urlParams.get('lang');
+    const savedLang = localStorage.getItem('selectedLanguage');
 
     if (langFromUrl && translations[langFromUrl]) {
         setLanguage(langFromUrl);
+    } else if (savedLang && translations[savedLang]) {
+        setLanguage(savedLang);
     } else {
-        const userLanguage = getUserLanguage().substring(0, 2); // Получаем первые 2 символа языка
+        const userLanguage = getUserLanguage().substring(0, 2); // Отримуємо перші 2 символи мови
         setLanguage(userLanguage);
     }
 }
 
-// Добавляем обработчики событий для кнопок смены языка
+// Додаємо обробники подій для кнопок зміни мови
 document.querySelectorAll('#languageButtonHeader, #languageButtonMobile').forEach(button => {
     button.addEventListener('click', function() {
         const menuId = this.id === 'languageButtonHeader' ? 'languageMenuHeader' : 'languageMenuMobile';
@@ -491,7 +605,7 @@ document.querySelectorAll('#languageButtonHeader, #languageButtonMobile').forEac
     });
 });
 
-// Добавляем обработчик событий для выбора языка
+// Додаємо обробник подій для вибору мови
 document.querySelectorAll('.language-menu a').forEach(function(element) {
     element.addEventListener('click', function(event) {
         event.preventDefault();
@@ -502,7 +616,7 @@ document.querySelectorAll('.language-menu a').forEach(function(element) {
     });
 });
 
-// Закрываем меню, если пользователь кликает вне его
+// Закриваємо меню, якщо користувач клацає поза його межами
 window.onclick = function(event) {
     if (!event.target.matches('#languageButtonHeader') && !event.target.matches('#languageButtonMobile') &&
         !event.target.matches('#languageButtonHeader img') && !event.target.matches('#languageButtonMobile img')) {
@@ -516,5 +630,5 @@ window.onclick = function(event) {
     }
 }
 
-// Инициализируем язык при загрузке страницы
+// Ініціалізуємо мову при завантаженні сторінки
 initializeLanguage();
