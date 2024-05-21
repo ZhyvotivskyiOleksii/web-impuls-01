@@ -12,8 +12,8 @@
     margin-bottom: 20px;
 }
 .prices-hero {
-    padding-top: 50px;
-    padding-bottom: 60px;
+    padding-top: 65px;
+    padding-bottom: 65px;
     text-align: center;
 }
 .contact-price{
@@ -94,11 +94,7 @@ th{
     background-color: #f1f1f1;
 }
 
-/* Mobile-first styles (320px and above) */
-@media (min-width: 320px) {
-    .prices-hero {
-        margin: 20px;
-    }
+
 
     .price-table {
         gap: 10px;

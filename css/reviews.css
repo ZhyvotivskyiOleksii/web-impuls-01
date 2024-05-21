@@ -52,18 +52,19 @@
 
 
 
-
-
 .customer-reviews {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 40px;
     
 }
-
+.review-item{
+    width: calc((100% - 10px) / 2);
+}
 .reviews-grid {
-    display: grid;
-    grid-template-columns: repeat(2, calc((100% - 2 * 10px) / 2));
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(2, calc((100% - 2 * 10px) / 2)); */
     gap: 10px;
 }
 
@@ -203,9 +204,8 @@
     }
     
     .reviews-grid {
-        display: grid;
-        grid-template-columns: repeat(2, calc((100% - 2 * 10px) / 2));
-        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
         max-width: 1280px;
         margin: 0 auto;
     }
@@ -340,20 +340,14 @@
     }
     
     .reviews-grid {
-        display: grid;
-        grid-template-columns: repeat(4, calc((100% - 4 * 10px) / 4));
-        gap: 30px;
+
+        /* grid-template-columns: repeat(4, calc((100% - 4 * 10px) / 4)); */
         margin: 0 auto;
     }
     
-    /* .review-item {
-        background-color: #dfdfdd;
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        position: relative;
-        text-align: left;
-    }  */
+ .review-item {
+        width: calc((100% - 30px) / 4);
+    }  
     
     .review-item h3 {
         margin-bottom: 5px;
