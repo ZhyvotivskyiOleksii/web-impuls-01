@@ -18,10 +18,10 @@
 }
 .card-price{
     font-family: 'FuturaPT2', sans-serif;
-    color: rgb(255, 255, 255);
+    color: #1e8ff8;
 }
 
-.card-curency{
+.card-currency{
     font-family: 'FuturaPT2', sans-serif;
 }
 
@@ -92,6 +92,7 @@
     line-height: 140%;
     letter-spacing: -0.03em;
     text-align: center;
+    color: #000000;
 }
 
 
